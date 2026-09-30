@@ -38,12 +38,10 @@ Go to this repository's **[Releases](../../releases)** page. Look for the newest
 Download and extract whichever matches your browser.
 
 **🦊 Firefox:**
-If the extension is published on Firefox Add-ons, install it from there (simplest option). Otherwise:
-1. Extract `browser-v2ray-runner-firefox.zip`
-2. In Firefox, go to `about:debugging#/runtime/this-firefox`
-3. Click "Load Temporary Add-on" and select the `manifest.json` file inside the extracted folder
+ 
+The extension is published on the official Firefox Add-ons store. Just install it from the link below — no need to download from Releases:
 
-> ⚠️ This is a *temporary* install — you'll need to repeat this every time Firefox restarts. A permanent install requires the extension to be signed by Mozilla.
+👉 **[Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/browser-v2ray-runner/)**
 
 **🌐 Chrome / Edge:**
 1. Extract `browser-v2ray-runner-chrome-edge.zip`
