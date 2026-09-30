@@ -95,4 +95,4 @@ Only one at a time — connecting to a new config automatically disconnects the 
 
 ## 📄 License & attribution
 
-Licensed under the [Apache License 2.0](LICENSE). You are free to use, modify and redistribute this project, **but you must credit the original author (Hamed / [hamedcode](https://github.com/hamedcode)) and link to the source repository**: keep the [NOTICE](NOTICE) file with your copies or derivative works, and mark any files you changed. See [PRIVACY.md](PRIVACY.md) for the privacy policy.
+Licensed under the [Apache License 2.0](LICENSE). You are free to use, modify and redistribute this project, **but you must credit the original author ([hamedcode](https://github.com/hamedcode)) and link to the source repository**: keep the [NOTICE](NOTICE) file with your copies or derivative works, and mark any files you changed. See [PRIVACY.md](PRIVACY.md) for the privacy policy.
