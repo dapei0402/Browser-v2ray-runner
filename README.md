@@ -39,7 +39,7 @@
 👉 **[نصب از Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/dmcfmgmajoikndpifnlggabbblggfppk)**
 
 **🌐 گوگل کروم:**
-کروم فروشگاه رسمی نداره (ثبت‌نام توسعه‌دهنده‌ی Chrome Web Store هزینه داره)، پس نصب دستیه:
+ورژن کروم اکستنشن فعلا در فروشگاه رسمی کروم عرضه نشده و باید بصورت دستی نصب کنید :
 1. برید صفحه‌ی **[Releases](../../releases)** این ریپازیتوری، جدیدترین ریلیز رو پیدا کنید و فایل `browser-v2ray-runner-chrome.zip` رو دانلود و اکسترکت کنید
 2. برید به `chrome://extensions`
 3. «حالت توسعه‌دهنده» (Developer mode) رو از گوشه‌ی بالا-راست روشن کنید
