@@ -28,25 +28,20 @@
 
 ### مرحله ۱ — دانلود و نصب اکستنشن
 
-اول برید صفحه‌ی **[Releases](../../releases)** این ریپازیتوری. دنبال جدیدترین ریلیزی بگردید — دو تا فایل zip پیوستش هست:
-
-| فایل | برای |
-|---|---|
-| 🟦 `browser-v2ray-runner-chrome-edge.zip` | گوگل کروم یا مایکروسافت اج |
-| 🟧 `browser-v2ray-runner-firefox.zip` | فایرفاکس |
-
-همون فایلی که مرورگرتون رو می‌خواید، دانلود و اکسترکت کنید.
-
 **🦊 فایرفاکس:**
- 
-اکستنشن روی فروشگاه رسمی فایرفاکس منتشر شده. کافیه از لینک زیر نصبش کنید، نیازی به دانلود از Releases نیست:
+اکستنشن روی فروشگاه رسمی فایرفاکس منتشر شده. کافیه از لینک زیر نصبش کنید:
 
 👉 **[نصب از Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/browser-v2ray-runner/)**
 
+**🟦 مایکروسافت اج:**
+اکستنشن روی فروشگاه رسمی اج هم منتشر شده. کافیه از لینک زیر نصبش کنید:
 
-**🌐 کروم / اج:**
-1. فایل `browser-v2ray-runner-chrome-edge.zip` رو اکسترکت کنید
-2. برید به `chrome://extensions` (یا `edge://extensions`)
+👉 **[نصب از Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/dmcfmgmajoikndpifnlggabbblggfppk)**
+
+**🌐 گوگل کروم:**
+کروم فروشگاه رسمی نداره (ثبت‌نام توسعه‌دهنده‌ی Chrome Web Store هزینه داره)، پس نصب دستیه:
+1. برید صفحه‌ی **[Releases](../../releases)** این ریپازیتوری، جدیدترین ریلیز رو پیدا کنید و فایل `browser-v2ray-runner-chrome.zip` رو دانلود و اکسترکت کنید
+2. برید به `chrome://extensions`
 3. «حالت توسعه‌دهنده» (Developer mode) رو از گوشه‌ی بالا-راست روشن کنید
 4. روی «Load unpacked» بزنید و همون پوشه‌ی اکسترکت‌شده رو انتخاب کنید
 
@@ -96,4 +91,4 @@
 
 ## 📄 مجوز و ذکر منبع
 
-این پروژه با [Apache License 2.0](LICENSE) منتشر شده. استفاده، ویرایش و بازنشر آزاد است، **ولی باید نام سازنده‌ی اصلی ([hamedcode](https://github.com/hamedcode)) و لینک منبع پروژه ذکر شود**. سیاست حریم خصوصی: [PRIVACY.md](PRIVACY.md).
+این پروژه با [Apache License 2.0](LICENSE) منتشر شده. استفاده، ویرایش و بازنشر آزاد است، **ولی باید نام سازنده‌ی اصلی (Hamed / [hamedcode](https://github.com/hamedcode)) و لینک منبع پروژه ذکر شود**: فایل [NOTICE](NOTICE) را همراه نسخه‌های خودتان نگه دارید و فایل‌هایی را که تغییر داده‌اید مشخص کنید. سیاست حریم خصوصی: [PRIVACY.md](PRIVACY.md).

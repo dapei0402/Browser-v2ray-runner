@@ -28,24 +28,20 @@ Setup has two parts: ⬇️ installing the extension, and 🔧 a one-time setup 
 
 ### Step 1 — Download and install the extension
 
-Go to this repository's **[Releases](../../releases)** page. Look for the newest release — it has two zip files attached:
-
-| File | For |
-|---|---|
-| 🟦 `browser-v2ray-runner-chrome-edge.zip` | Google Chrome or Microsoft Edge |
-| 🟧 `browser-v2ray-runner-firefox.zip` | Firefox |
-
-Download and extract whichever matches your browser.
-
 **🦊 Firefox:**
- 
-The extension is published on the official Firefox Add-ons store. Just install it from the link below — no need to download from Releases:
+The extension is published on the official Firefox Add-ons store. Just install it from the link below:
 
 👉 **[Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/browser-v2ray-runner/)**
 
-**🌐 Chrome / Edge:**
-1. Extract `browser-v2ray-runner-chrome-edge.zip`
-2. Go to `chrome://extensions` (or `edge://extensions`)
+**🟦 Microsoft Edge:**
+The extension is also published on the official Edge Add-ons store. Just install it from the link below:
+
+👉 **[Install from Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/dmcfmgmajoikndpifnlggabbblggfppk)**
+
+**🌐 Google Chrome:**
+Chrome has no official store listing (Chrome Web Store's developer registration has a paid fee), so installation is manual:
+1. Go to this repository's **[Releases](../../releases)** page, find the newest release, and download/extract `browser-v2ray-runner-chrome.zip`
+2. Go to `chrome://extensions`
 3. Turn on "Developer mode" (top-right corner)
 4. Click "Load unpacked" and select that extracted folder
 
@@ -95,4 +91,4 @@ Only one at a time — connecting to a new config automatically disconnects the 
 
 ## 📄 License & attribution
 
-Licensed under the [Apache License 2.0](LICENSE). You are free to use, modify and redistribute this project, **but you must credit the original author ([hamedcode](https://github.com/hamedcode)) and link to the source repository**: keep the [NOTICE](NOTICE) file with your copies or derivative works, and mark any files you changed. See [PRIVACY.md](PRIVACY.md) for the privacy policy.
+Licensed under the [Apache License 2.0](LICENSE). You are free to use, modify and redistribute this project, **but you must credit the original author (Hamed / [hamedcode](https://github.com/hamedcode)) and link to the source repository**: keep the [NOTICE](NOTICE) file with your copies or derivative works, and mark any files you changed. See [PRIVACY.md](PRIVACY.md) for the privacy policy.
