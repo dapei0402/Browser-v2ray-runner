@@ -14,7 +14,7 @@
 
 ## نصب (روی ویندوز)
 
-### ۱. نصب هسته محلی
+### ۱. نصب هستِ محلی
 از این نسخه به بعد، همه‌چی تو **یه فایل تکی** جمع شده: `installer/install.bat`. کافیه همین یه فایل رو دانلود کنی و دابل‌کلیکش کنی — نیازی به اکسترکت کردن یا نگه‌داشتن فایل‌های کناریش نیست.
 
 این فایل یه ترفند شناخته‌شده استفاده می‌کنه: خودش هم یه batch عادیه، هم یه اسکریپت PowerShell کامل رو زیر یه مارکر داخل خودش نگه می‌داره؛ موقع اجرا، بخش PowerShellِ خودش رو (با `more`) تو یه فایل موقت استخراج می‌کنه و اجراش می‌کنه. مانیفست‌های JSON هم دیگه فایل جدا نیستن، مستقیم داخل همون اسکریپت PowerShell به‌صورت متن (here-string) نوشته شدن.
@@ -100,4 +100,4 @@ Chrome Web Store برای انتشار هزینه‌ی یک‌بار ۵ دلار
 ## Publishing to addons.mozilla.org
 
 See [AMO-SUBMISSION.md](AMO-SUBMISSION.md) for the listing text and reviewer notes.
-The Firefox add-on ID is `browser-v2ray-runner@hamedcode.github.io` and can never change after the first AMO submission. It must be identical in `extension-firefox/manifest.json`, `extension/manifest.firefox.json` and `allowed_extensions` in `installer/install.bat`, otherwise native messaging breaks in Firefox. Bump `version` in both Firefox manifests for every new AMO upload.
+The Firefox add-on ID is `browser-v2ray-runner@hamedcode.github.io` and can never change after the first AMO submission. It must be identical in `extension-firefox/manifest.json` and `allowed_extensions` in `installer/install.bat`, otherwise native messaging breaks in Firefox. Bump `version` in `extension-firefox/manifest.json` for every new AMO upload.
