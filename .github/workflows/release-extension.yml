@@ -41,16 +41,16 @@ jobs:
 
       # Zip just the contents of extension/ (not the whole repo), so
       # extracting it gives a folder ready for "Load unpacked" as-is.
-      - name: Zip Chrome/Edge build
+      #
+      # Only Chrome is released here. Firefox is published on addons.mozilla.org
+      # and Edge is published on the Microsoft Edge Add-ons store, so neither
+      # needs a manual-install zip anymore - this workflow used to build both
+      # (as browser-v2ray-runner-chrome-edge.zip and -firefox.zip), but those
+      # store listings are now the only supported install path for those two.
+      - name: Zip Chrome build
         run: |
           cd extension
-          zip -r ../browser-v2ray-runner-chrome-edge.zip . -x '*.DS_Store'
-          cd ..
-
-      - name: Zip Firefox build
-        run: |
-          cd extension-firefox
-          zip -r ../browser-v2ray-runner-firefox.zip . -x '*.DS_Store'
+          zip -r ../browser-v2ray-runner-chrome.zip . -x '*.DS_Store'
           cd ..
 
       - name: Create release and upload assets
@@ -59,7 +59,6 @@ jobs:
           tag_name: ${{ steps.vars.outputs.tag }}
           name: ${{ steps.vars.outputs.tag }}
           files: |
-            browser-v2ray-runner-chrome-edge.zip
-            browser-v2ray-runner-firefox.zip
+            browser-v2ray-runner-chrome.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
