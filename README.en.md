@@ -39,7 +39,7 @@ The extension is also published on the official Edge Add-ons store. Just install
 👉 **[Install from Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/dmcfmgmajoikndpifnlggabbblggfppk)**
 
 **🌐 Google Chrome:**
-Chrome has no official store listing (Chrome Web Store's developer registration has a paid fee), so installation is manual:
+The Chrome build isn't published on the official Chrome Web Store yet, so you'll need to install it manually :
 1. Go to this repository's **[Releases](../../releases)** page, find the newest release, and download/extract `browser-v2ray-runner-chrome.zip`
 2. Go to `chrome://extensions`
 3. Turn on "Developer mode" (top-right corner)
