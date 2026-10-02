@@ -199,7 +199,8 @@ try {
   "path": "$hostExePath",
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://bnajfffphmhkpajnijbdekbbjppckidc/"
+    "chrome-extension://bnajfffphmhkpajnijbdekbbjppckidc/",
+    "chrome-extension://dmcfmgmajoikndpifnlggabbblggfppk/"
   ]
 }
 "@
