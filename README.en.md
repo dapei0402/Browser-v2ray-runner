@@ -10,7 +10,7 @@
 ![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=firefoxbrowser&logoColor=white)
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-6f42c1)
 
-<img src="https://flagcdn.com/20x15/ir.png" width="20" height="15" alt=""> [نسخه‌ی فارسی](README.md) · [⬇️ Download from Releases](../../releases)
+<img src="https://flagcdn.com/20x15/ir.png" width="20" height="15" alt=""> [نسخه‌ی فارسی](README.md) · [⬇️ Download from Releases](../../releases) · [🇨🇳 中文](README.zh-CN.md)
 
 </div>
 
@@ -40,7 +40,7 @@ The extension is also published on the official Edge Add-ons store. Just install
 
 **🌐 Google Chrome:**
 The Chrome build isn't published on the official Chrome Web Store yet, so you'll need to install it manually :
-1. Go to this repository's **[Releases](../../releases)** page, find the newest release, and download/extract `browser-v2ray-runner-chrome.zip`
+1. Go to this repository's **[Releases](../../releases) · [🇨🇳 中文](README.zh-CN.md)** page, find the newest release, and download/extract `browser-v2ray-runner-chrome.zip`
 2. Go to `chrome://extensions`
 3. Turn on "Developer mode" (top-right corner)
 4. Click "Load unpacked" and select that extracted folder
